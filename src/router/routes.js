@@ -12,7 +12,7 @@ const routes = [
       {
         name: "nextTournaments",
         path: '/nextTournaments',
-        component: () => import('pages/nextTournaments.vue'),
+        component: () => import('pages/nextTournaments/nextTournaments.vue'),
       },
       {
         name: "youTubeBroadcasts",

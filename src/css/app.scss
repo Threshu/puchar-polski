@@ -17,6 +17,11 @@
 	margin-right: 0.5em;
 }
 
+.px-1 {
+  padding-right: 0.1em;
+  padding-left: 0.1em;
+}
+
 .pr-1 {
 	padding-right: 0.3em;
 }
@@ -43,4 +48,22 @@
 
 .vue-map-container {
   height: 100%;
+}
+
+.pp-container {
+  height: calc(100vh - 50px);
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  .row {
+    .col {
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-bottom: 10px;
+    }
+  }
+}
+
+.q-drawer--left.q-drawer--bordered {
+  border-right: none;
 }
