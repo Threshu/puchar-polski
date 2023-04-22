@@ -102,7 +102,7 @@ const linksList = [
     title: "Nadchodzące turnieje",
     caption: "Puchar Polski 2023",
     icon: "mdi-calendar-arrow-right",
-    color: "darkorange",
+    color: "white",
     path: "nextTournaments",
   },
   {

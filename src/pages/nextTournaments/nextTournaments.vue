@@ -55,6 +55,10 @@ export default {
   .q-img {
     max-height: 20%;
   }
+
+  .q-btn__content {
+    padding: 0 !important;
+  }
 }
 
 .google-modal {
