@@ -10,6 +10,11 @@ const routes = [
         component: () => import('pages/currentTournament.vue'),
       },
       {
+        name: "currentSeries",
+        path: '/currentSeries',
+        component: () => import('src/pages/currentSeries/currentSeries.vue'),
+      },
+      {
         name: "nextTournaments",
         path: '/nextTournaments',
         component: () => import('pages/nextTournaments/nextTournaments.vue'),

@@ -96,7 +96,7 @@ const linksList = [
     caption: "Bieżący cykl PGNiG TERMIKA Puchar Polski w Szachach",
     icon: "mdi-trophy",
     color: "gold",
-    link: "https://forum.quasar.dev",
+    path: "currentSeries",
   },
   {
     title: "Nadchodzące turnieje",
