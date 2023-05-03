@@ -31,7 +31,7 @@ export default {
 <style lang="scss">
 .single-player {
   .q-field__control:before {
-    border-style: none !important;
+    border: 2px solid black !important;
   }
 
   .q-field__label {

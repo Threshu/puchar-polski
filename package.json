@@ -2,7 +2,7 @@
   "name": "puchar-polski",
   "version": "0.0.1",
   "description": "PGNiG Puchar Polski w Szachach",
-  "productName": "Puchar Polski",
+  "productName": "PGNiG Puchar Polski w Szachach",
   "author": "Threshu <szymon.banach.dev@gmail.com>",
   "private": true,
   "scripts": {

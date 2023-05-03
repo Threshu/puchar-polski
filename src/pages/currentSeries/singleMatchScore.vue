@@ -44,21 +44,25 @@ export default {
     width: 25px;
     font-weight: bold;
     height: 20px;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
   }
 
   .single-score-top {
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
+    border-top: 2px solid black;
   }
 
   .score-spacer {
-    height: 1px;
+    height: 2px;
     background-color: black;
   }
 
   .single-score-bottom {
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
+    border-bottom: 2px solid black;
   }
 }
 </style>
