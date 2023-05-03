@@ -1,34 +1,19 @@
 <template>
-  <div class="single-match px-2">
-    <div class="d-flex jcc text-center font-bold text-white font-big">Rounda {{ match.number }}</div>
-    <div>
-      <q-input rounded outlined :label="match.player">
-        <template v-slot:prepend>
-          <q-avatar>
-            <img src="https://cdn.quasar.dev/logo-v2/svg/logo.svg">
-          </q-avatar>
-        </template>
-      </q-input>
-    </div>
-    <div>
-      <div class="d-flex">
-{{ match.number }}
-      </div>
-    </div>
-    <div>
-      <q-input rounded outlined :label="match.player">
-        <template v-slot:prepend>
-          <q-avatar>
-            <img src="https://cdn.quasar.dev/logo-v2/svg/logo.svg">
-          </q-avatar>
-        </template>
-      </q-input>
-    </div>
+  <div class="single-match px-2 py-2">
+    <single-player :player="match.whitePlayer" :title="match.whiteTitle"/>
+    <single-match-score :match="match"/>
+    <single-player :player="match.blackPlayer" :title="match.blackTitle"/>
   </div>
 </template>
 
 <script>
+import singlePlayer from "./singlePlayer.vue";
+import singleMatchScore from "./singleMatchScore.vue";
 export default {
+  components: {
+    singlePlayer,
+    singleMatchScore,
+  },
   props: {
     match: {
       type: Object,
@@ -36,7 +21,7 @@ export default {
         number: 0
       }
     }
-  }
+  },
 }
 </script>
 
