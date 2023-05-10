@@ -80,16 +80,15 @@
 	}
 }
 
-.vue-map-container {
-  height: 100%;
-}
-
-.pp-container {
-  height: calc(100vh - 50px);
+.next-tournaments {
   padding-top: 10px;
   padding-bottom: 10px;
 
   .row {
+    .col:first-child {
+      padding-right: 0 !important;
+    }
+
     .col {
       padding-left: 10px;
       padding-right: 10px;
@@ -134,10 +133,6 @@
   align-items: center;
 }
 
-.bg-primary {
-  background-color: $primary;
-}
-
 .bg-primary-alfa {
   background-color: $primary;
 }
@@ -160,10 +155,6 @@
 
 .font-bold {
   font-weight: bold;
-}
-
-.text-white {
-  color: white;
 }
 
 .font-big {
