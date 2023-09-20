@@ -1,9 +1,8 @@
 <template>
   <div class="content-height next-tournaments">
-      <div class="row" v-for="(row, index) in tournaments" :key="index">
-        <div class="col" v-for="(tournament, indexRow) in row" :key="indexRow">
-          <tournamentCard :tournament="tournament"/>
-        </div>
+    <div class="row" v-for="(row, index) in tournaments" :key="index">
+      <div class="col" v-for="(tournament, indexRow) in row" :key="indexRow">
+        <tournamentCard :tournament="tournament" />
       </div>
     </div>
   </div>
