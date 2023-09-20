@@ -2,18 +2,9 @@
   <q-layout view="hhr Lpr ffr">
     <q-header elevated reveal>
       <q-toolbar>
-        <q-btn
-          flat
-          dense
-          round
-          icon="menu"
-          aria-label="Menu"
-          @click="toggleLeftDrawer"
-        />
+        <q-btn flat dense round icon="menu" aria-label="Menu" @click="toggleLeftDrawer" />
 
-        <q-toolbar-title>
-          PGNiG TERMIKA Puchar Polski w Szachach
-        </q-toolbar-title>
+        <q-toolbar-title> PGNiG TERMIKA Puchar Polski w Szachach </q-toolbar-title>
         <a
           target="_blank"
           href="https://www.chessmanager.com/pl/tournaments/5100140244238336"
@@ -44,10 +35,7 @@
             style="width: 40px; height: 40px"
           />
         </a>
-        <a
-          target="_blank"
-          href="https://www.youtube.com/c/PolskiZwiazekSzachowy"
-        >
+        <a target="_blank" href="https://www.youtube.com/c/PolskiZwiazekSzachowy">
           <q-img
             alt="Quasar logo"
             src="~assets/youtube.png"
@@ -66,11 +54,7 @@
       style="background-color: #363636"
     >
       <q-list>
-        <EssentialLink
-          v-for="link in essentialLinks"
-          :key="link.title"
-          v-bind="link"
-        />
+        <EssentialLink v-for="link in essentialLinks" :key="link.title" v-bind="link" />
       </q-list>
     </q-drawer>
 

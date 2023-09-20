@@ -7,9 +7,7 @@
     </q-img>
 
     <q-card-actions>
-      <q-btn flat
-        ><q-icon class="pr-1" name="mdi-tournament" />Serwis turniejowy</q-btn
-      >
+      <q-btn flat><q-icon class="pr-1" name="mdi-tournament" />Serwis turniejowy</q-btn>
       <q-separator vertical dark inset class="mx-1" />
       <q-btn flat @click="googleModal = true"
         ><q-icon class="pr-1" name="mdi-google-maps" />Lokalizacja</q-btn
